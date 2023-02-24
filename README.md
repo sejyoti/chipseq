@@ -1,4 +1,4 @@
-# chipseqCancel changes
+# chipseq
 
 The NF-Core ChIP-seq pipeline is a community-driven pipeline for processing and analyzing ChIP-seq data. It is built on top of Nextflow and incorporates several popular tools and algorithms for quality control, alignment, peak calling, and downstream analysis. The pipeline supports multiple input file formats, including fastq, bam, and bed.
 
