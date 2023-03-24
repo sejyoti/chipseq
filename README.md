@@ -1,5 +1,14 @@
 # chipseq
 
+
+<a href="https://nf-co.re/" title="nf-core"><img src="https://img.shields.io/badge/nf--core-pipeline%20status-brightgreen.svg" alt="nf-core"></a>
+<img src="https://img.shields.io/github/workflow/status/nf-core/chipseq/Lint?label=Lint&logo=github&style=flat-square">
+<img src="https://img.shields.io/github/workflow/status/nf-core/chipseq/Test?label=Test&logo=github&style=flat-square">
+<img src="https://img.shields.io/github/workflow/status/nf-core/chipseq/Build?label=Build&logo=github&style=flat-square">
+<img src="https://img.shields.io/github/workflow/status/nf-core/chipseq/Publish?label=Publish&logo=github&style=flat-square">
+<img src="https://img.shields.io/github/workflow/status/nf-core/<pipeline-name>/Test?label=Test&logo=github&style=flat-square">
+<a href="https://nf-co.re/" title="nf-core"><img src="https://img.shields.io/badge/nf--core-featured-brightgreen.svg" alt="nf-core"></a>
+
 The NF-Core ChIP-seq pipeline is a community-driven pipeline for processing and analyzing ChIP-seq data. It is built on top of Nextflow and incorporates several popular tools and algorithms for quality control, alignment, peak calling, and downstream analysis. The pipeline supports multiple input file formats, including fastq, bam, and bed.
 
 To run the NF-Core ChIP-seq pipeline using Nextflow, you will need to have Nextflow installed on your system and download the pipeline script and configuration files from the NF-Core website. Once you have the necessary files, you can run the pipeline using the nextflow run command and specifying the location of the configuration file. The pipeline can be run on a local computer or on a cluster using the SLURM or PBS job scheduler.
